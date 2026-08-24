@@ -9,7 +9,6 @@ const nextConfig: NextConfig = {
     staleTimes: {
       dynamic: 30,
     },
-    turbopackFileSystemCacheForDev: true,
   },
 };
 
