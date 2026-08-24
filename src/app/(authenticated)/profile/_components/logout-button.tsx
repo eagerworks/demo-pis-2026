@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-
+import { Button } from "~/app/_components/Button";
 import { authClient } from "~/lib/auth/client";
 
 export function LogoutButton() {
@@ -13,12 +13,13 @@ export function LogoutButton() {
   }
 
   return (
-    <button
+    <Button
       type="button"
+      variant="outline"
       onClick={handleLogout}
-      className="w-full rounded-md bg-foreground px-3 py-2 text-sm font-medium text-background"
+      className="w-full"
     >
       Log out
-    </button>
+    </Button>
   );
 }
