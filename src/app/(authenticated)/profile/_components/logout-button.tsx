@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { Button } from "~/app/_components/Button";
+import { Button } from "~/components/ui/button";
 import { authClient } from "~/lib/auth/client";
 
 export function LogoutButton() {

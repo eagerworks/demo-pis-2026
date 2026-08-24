@@ -1,7 +1,7 @@
-import ItemsList from "./_components/ItemsList";
+import ItemsList from "./_components/items-list";
 import { Suspense } from "react";
-import Header from "./_components/Header";
-import Loading from "~/app/_components/Loading";
+import Header from "./_components/header";
+import Loading from "~/components/ui/loading";
 
 export default async function DashboardPage() {
   return (

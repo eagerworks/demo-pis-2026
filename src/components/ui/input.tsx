@@ -14,7 +14,7 @@ function Input({
   id,
   label,
   errorMessage,
-    iconRight,
+  iconRight,
   ...props
 }: InputProps) {
   return (

@@ -1,7 +1,7 @@
 import { headers } from "next/headers";
 import { auth } from "~/lib/auth";
 import { api } from "~/lib/trpc/server";
-import { CreateItemDialog } from "./CreateItemDialog";
+import { CreateItemDialog } from "./create-item-dialog";
 
 export default async function Header() {
   await new Promise((resolve) => setTimeout(resolve, 1500));

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { TRPCReactProvider } from "~/lib/trpc/react";
-import { Toaster } from "~/app/_components/Toast";
+import { Toaster } from "~/components/ui/toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

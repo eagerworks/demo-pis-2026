@@ -7,8 +7,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Eye, EyeOff } from "lucide-react";
 import { z } from "zod";
 
-import { Button } from "~/app/_components/Button";
-import { Input } from "~/app/_components/TextInput";
+import { Button } from "~/components/ui/button";
+import { Input } from "~/components/ui/input";
 import { authClient } from "~/lib/auth/client";
 
 const loginSchema = z.object({

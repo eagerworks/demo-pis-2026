@@ -5,9 +5,9 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 
-import { Button } from "~/app/_components/Button";
-import { Input } from "~/app/_components/TextInput";
-import { toast } from "~/app/_components/Toast";
+import { Button } from "~/components/ui/button";
+import { Input } from "~/components/ui/input";
+import { toast } from "~/components/ui/toast";
 import { api } from "~/lib/trpc/react";
 
 const formSchema = z.object({

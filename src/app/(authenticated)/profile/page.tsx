@@ -2,7 +2,7 @@ import { Suspense } from "react";
 
 import { LogoutButton } from "./_components/logout-button";
 import { ProfileDetails } from "./_components/profile-details";
-import Loading from "~/app/_components/Loading";
+import Loading from "~/components/ui/loading";
 
 export default function ProfilePage() {
   return (

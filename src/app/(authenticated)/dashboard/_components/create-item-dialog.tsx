@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "~/app/_components/Button";
+import { Button } from "~/components/ui/button";
 
 import {
   Dialog,
@@ -9,9 +9,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "~/app/_components/Dialog";
+} from "~/components/ui/dialog";
 
-import { CreateItemForm } from "./CreateItemForm";
+import { CreateItemForm } from "./create-item-form";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
