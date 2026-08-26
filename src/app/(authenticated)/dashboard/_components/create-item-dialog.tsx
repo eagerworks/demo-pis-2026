@@ -14,6 +14,7 @@ import {
 import { CreateItemForm } from "./create-item-form";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { PlusIcon } from "lucide-react";
 
 export function CreateItemDialog() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,8 @@ export function CreateItemDialog() {
       <DialogTrigger
         render={
           <Button variant="outline" className="w-fit">
-            Create +
+            <PlusIcon className="w-4 h-4" />
+            Create
           </Button>
         }
       />
