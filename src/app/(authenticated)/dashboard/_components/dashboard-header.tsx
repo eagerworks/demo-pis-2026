@@ -2,6 +2,7 @@ import { headers } from "next/headers";
 import { auth } from "~/lib/auth";
 import { api } from "~/lib/trpc/server";
 import { CreateItemDialog } from "./create-item-dialog";
+import DeleteAllItemsButton from "./delete-all-items-button";
 
 export default async function Header() {
   await new Promise((resolve) => setTimeout(resolve, 1500));
@@ -22,7 +23,11 @@ export default async function Header() {
         </h2>
       </div>
 
-      <CreateItemDialog />
+      <div className="flex gap-2">
+        <CreateItemDialog />
+
+        <DeleteAllItemsButton />
+      </div>
     </div>
   );
 }
